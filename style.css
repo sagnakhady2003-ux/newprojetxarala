@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px;
+width: 100%;
+box-sizing: border-box;
+}
+.logo{
+   width: 110px;
+   height: 23.72px;
+}
+
+.navbar{
+    display: flex;
+justify-content: center;
+gap: 25px;
+width: 330px;
+height: 21px;
+margin-left: 50px;
+}
+
+
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.btn{
+    background: linear-gradient(to right,#ff6600,#42210b);
+    margin: 15px 57px;
+   width: 300px;
+   height: 52px;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   border-radius: 5px;
+   gap: 10px;
+}
+.hero-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.cta-orange{
+    background-color: #ff6600;
+    position: relative;
+    border-radius: 30px;
+    padding: 50px 40px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    width: 90%;
+    max-width: 850px;
+    justify-content: center;
+    margin: 40px auto;
+}
+.cta-title{
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.badge-black{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+.cta-highlight-row{
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+.cta-footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+.deco{
+    position: absolute;
+    top: 50px;
+
+}
+
+.card strong{
+    color: #ff6600;
+    margin-right: 5px;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 40px;
+}
+.gauche{
+    flex:1.2;
+    display: flex;
+flex-direction: column;
+}
+.gauche h2{
+    font-family: 'popins',sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2c2c2c;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.card{
+    background-color: #fff;
+border: 0.5px solid #ff6600;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+
+}
+.droite{
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    overflow: hidden;
+
+}
+.motif-orange{
+    position: absolute;
+    z-index: 1;
+    width: 300%;
+    top: 30%;
+    left: 0;
+    height: auto;
+}
+.man{
+    position: relative;
+    z-index: 2;
+    top: auto;
+    width: 573px;
+    height: auto;
+    display: block;
+}
+.benefits-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.image-box{
+    position: relative;
+    flex: 1;
+}
+.femme-img{
+    width: 100%;
+    max-width: 400px;
+}
+.text-cards{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.info-card{
+    background-color: #fff;
+    border: 1px solid  #ff6600;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    font-size: 0.9rem;
+    width: 100%;
+    transition: 0.3s;
+}
+.deco-line{
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    z-index: -1;
+    width: 120%;
+}
+.container-orange{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.image-fond{
+    width: 1000px;
+    display: block;
+}
+.ampoule-overlay{
+    position:absolute ;
+    bottom: 15%;
+    right: 5%;
+    width: 250px;
+}
+
+.advantage-section{
+    padding: 60px 20px;
+    background-color: #fcfcfc;}
+.advantage-title{
+    margin-bottom: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.advantage-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.advantage-card{
+    background: #FF660008;
+    border: 0.5px #ff6600;
+    border-radius: 25px;
+    padding: 40px;
+    text-align: left;}
+.advantage-card h3{
+    color: #ff6600;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+.advantage-card li{
+    position: relative;
+    padding-left: 5px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: #444;
+}
+.stats-section{
+    background-color: #ff6600;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.stat-item{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+.stat-number{
+    background-color: #ff6600;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.booking-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.booking-card {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #f9f9f9; /* Fond gris très clair */
+    border-radius: 20px;
+    padding: 50px;
+    text-align: left;
+    gap: 40px;
+}
+
+/* Colonnes */
+.booking-left, .booking-right {
+    flex: 1;
+}
+
+.booking-left {
+    border-right: 1px solid #ddd; /* La ligne de séparation verticale */
+    padding-right: 40px;
+}
+
+/* Les étapes avec numéros */
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.step-number {
+    background-color: #ff6600;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+/* Texte de droite */
+.offer-title {
+    color: #ff6600;
+    font-size: 1.1rem;
+    font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+/* text-align: center; */
+
+}
+
+.offer-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.highlight-val {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Bouton final avec dégradé */
+.btn-final {
+    background: linear-gradient(to right, #ff6600, #4d2600); /* Dégradé orange vers marron */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+.performance-section {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.performance-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.performance-text {
+    flex: 1;
+}
+
+/* .performance-text h3 {
+  
+} */
+
+.performance-list {
+    list-style: none;
+    padding: 0;
+}
+
+.performance-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #444;
+}
+
+/* Les petits points orange devant la liste */
+.performance-list li::before {
+    content: "•";
+    color: #42210B;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Style de l'icône à droite */
+.performance-icon {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.badge-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #fffaf7; /* Orange très très clair, presque blanc */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Petit effet d'ombre douce pour le relief */
+    box-shadow: 0 10px 40px rgba(255, 102, 0, 0.05);
+}
+
+.badge-circle img {
+    width: 100px;
+    height: auto;
+}
+.testimonials-section {
+    padding: 80px 20px;
+    /* text-align: center; */
+}
+
+.testimonials-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+.testimonial-card.active {
+    background-color: #ff6600;
+    color: white;
+    transform: scale(1.05);
+}
+
+.quote {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.testimonial-card.active .quote {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info h4 {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.user-info p {
+    font-size: 0.75rem;
+    margin: 0;
+    opacity: 0.8;
+}
+.footer{
+    background-color: #ff6600;
+    color: white;
+    padding: 60px 10%;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+/* .footer-info{
+
+} */
+.logo{
+    width: 150px;
+    height: auto;
+}
+.slogan{
+    font-style: italic;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+.contact-list{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+.contact-list li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+.footer-form h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-grid input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.footer-form button {
+    width: 50%; 
+    justify-content: right;
+    text-align: center;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.footer-form button:hover {
+    background-color: #000;
+}
+.foot{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
