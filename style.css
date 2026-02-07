@@ -191,10 +191,11 @@ border: 0.5px solid #ff6600;
 }
 .deco-line{
     position: absolute;
-    left: -50px;
-    top: 50%;
+    right: 0;
+    top: 30%;
     z-index: -1;
-    width: 120%;
+    width: 300%;
+    height: auto;
 }
 .container-orange{
     position: relative;
@@ -260,13 +261,14 @@ border: 0.5px solid #ff6600;
     padding: 20px;
     border-radius: 10px;
     width: 250px;
-    text-align: center;
+    /* text-align: center; */
 }
 .stat-number{
     background-color: #ff6600;
     color: white;
-    display: inline-block;
-    padding: 5px 15px;
+    display: flex;
+    width: fit-content;
+    padding: 5px ;
     border-radius: 5px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -294,7 +296,7 @@ border: 0.5px solid #ff6600;
 }
 
 .booking-left {
-    border-right: 1px solid #ddd; /* La ligne de séparation verticale */
+    border-right: 1px solid #ddd;
     padding-right: 40px;
 }
 
@@ -327,7 +329,6 @@ border: 0.5px solid #ff6600;
 font-weight: 700;
 font-style: Bold;
 font-size: 28px;
-/* leading-trim: NONE; */
 line-height: 100%;
 letter-spacing: 0%;
 /* text-align: center; */
