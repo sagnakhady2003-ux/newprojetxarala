@@ -202,10 +202,13 @@ border: 0.5px solid #ff6600;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 .image-fond{
-    width: 1000px;
+    width: 100%;
+    height: auto;
     display: block;
 }
 .ampoule-overlay{
@@ -569,4 +572,30 @@ letter-spacing: 0%;
     justify-content: center;
     text-align: center;
     margin-top: 10%;
+}
+/* --- 1. TON CODE ACTUEL (Ne change rien ici) --- */
+.container {
+    display: flex;
+    width: 1000px;
+    /* ... tout ton reste de code ... */
+}
+
+.btn {
+    background: linear-gradientto right,#ff6600,#42210b;
+    width: 300px;
+}
+
+/* --- 2. TES MEDIA QUERIES (À la toute fin du fichier) --- */
+@media (max-width: 768px) {
+    /* Ici, on ne récrit pas tout le dégradé du bouton, 
+       juste ce qui change : sa largeur ! 
+    */
+    .container {
+        flex-direction: column; /* On empile au lieu d'aligner */
+        width: 100%;            /* On prend tout l'écran */
+    }
+
+    .btn {
+        width: 100%;            /* Le bouton devient large sur mobile */
+    }
 }
