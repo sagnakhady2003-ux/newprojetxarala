@@ -351,7 +351,7 @@ letter-spacing: 0%;
 
 /* Bouton final avec dégradé */
 .btn-final {
-    background: linear-gradient(to right, #ff6600, #4d2600); /* Dégradé orange vers marron */
+    background: linear-gradient(to right, #ff6600, #4d2600);
     color: white;
     border: none;
     padding: 15px 30px;
@@ -573,11 +573,9 @@ letter-spacing: 0%;
     text-align: center;
     margin-top: 10%;
 }
-/* --- 1. TON CODE ACTUEL (Ne change rien ici) --- */
 .container {
     display: flex;
     width: 1000px;
-    /* ... tout ton reste de code ... */
 }
 
 .btn {
@@ -585,17 +583,36 @@ letter-spacing: 0%;
     width: 300px;
 }
 
-/* --- 2. TES MEDIA QUERIES (À la toute fin du fichier) --- */
 @media (max-width: 768px) {
-    /* Ici, on ne récrit pas tout le dégradé du bouton, 
-       juste ce qui change : sa largeur ! 
-    */
     .container {
-        flex-direction: column; /* On empile au lieu d'aligner */
-        width: 100%;            /* On prend tout l'écran */
+        flex-direction: column;
+        width: 100%;
     }
 
     .btn {
-        width: 100%;            /* Le bouton devient large sur mobile */
+        width: 100%;
+    }
+    .testimonial-card{
+        width: 100%;
+        transform: none;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .form-grid{
+        grid-template-columns: 1fr;
+    }
+    .contact-list{
+        justify-content: center;
+    }
+    .ampoule-overlay{
+        position: relative;
+        display: block;
+        margin: 20px auto;
+        width: 150px;
+        bottom: 0;
     }
 }
